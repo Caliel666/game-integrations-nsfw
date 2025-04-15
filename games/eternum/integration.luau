@@ -1,5 +1,5 @@
--- VOTV integration v0.0.0
--- Copyright (C) 2025  Nikita Podvirnyi <krypt0nn@vk.com>
+-- Eternum integration v0.0.0
+-- Copyright (C) 2025  Cali666
 --
 -- This program is free software: you can redistribute it and/or modify
 -- it under the terms of the GNU General Public License as published by
@@ -41,7 +41,6 @@ end
 
 ------------------------------------------------- Game versions -------------------------------------------------
 
--- Direct download links are taken from here: https://archive.org/details/votv-archive
 local function list_game_versions()
     return {
         { version = "0.8.6", title = "0.8.6", url = "https://download2331.mediafire.com/19fqz5mkkh4gtSBZhK9l28gnXX8EcYspiI1dQCopUpYoiy6K6u2DgU-lVi4JiIZ_J5Ri_H8LqtovF_eNEzu-_ffVziz0kDSzeKJFW1kkSPtmjEOWKX4Ori5Ndca9vW0ZoVPisqP5bM6s5j_89d9Dp0RE_Gfen0ABuOZw4hy0CZ91/svak5gazvltox1j/Eternum-0.8.6-pc.zip" }
@@ -173,7 +172,7 @@ return {
 
             local i18n = import("i18n").i18n
 
-            local archive_path = path.join(path.temp_dir(), `votv_{info.version}.7z`)
+            local archive_path = path.join(path.temp_dir(), `Eternum-{info.version}-pc.7z`)
 
             return {
                 title = i18n("install_game"),
