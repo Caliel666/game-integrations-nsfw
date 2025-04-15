@@ -1,0 +1,7 @@
+[serve_at]
+ip = "127.0.0.1"
+port = 8080
+
+[mislead]
+link_to_mislead = "http://127.0.0.1:8080"
+mislead_to = "http://127.0.0.1:8080"

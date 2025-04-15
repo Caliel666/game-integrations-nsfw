@@ -9,19 +9,19 @@
         "developer": "Caribdis",
         "publisher": "Caribdis",
         "images": {
-            "icon": "https://raw.githubusercontent.com/an-anime-team/game-integrations/refs/heads/rewrite/games/eternum/icon.png",
-            "poster": "https://raw.githubusercontent.com/an-anime-team/game-integrations/refs/heads/rewrite/games/eternum/poster.jpg",
-            "background": "https://raw.githubusercontent.com/an-anime-team/game-integrations/refs/heads/rewrite/games/eternum/background.png",
+            "icon": "https://raw.githubusercontent.com/Caliel666/game-integrations-nsfw/refs/heads/rewrite/games/eternum/icon.png",
+            "poster": "https://raw.githubusercontent.com/Caliel666/game-integrations-nsfw/refs/heads/rewrite/games/eternum/poster.jpg",
+            "background": "https://raw.githubusercontent.com/Caliel666/game-integrations-nsfw/refs/heads/rewrite/games/eternum/background.pngan",
             "slides": [
-                "https://raw.githubusercontent.com/an-anime-team/game-integrations/refs/heads/rewrite/games/eternum/slide1.png",
-                "https://raw.githubusercontent.com/an-anime-team/game-integrations/refs/heads/rewrite/games/eternum/slide2.png",
-                "https://raw.githubusercontent.com/an-anime-team/game-integrations/refs/heads/rewrite/games/eternum/slide3.png",
-                "https://raw.githubusercontent.com/an-anime-team/game-integrations/refs/heads/rewrite/games/eternum/slide4.png"
+                "https://raw.githubusercontent.com/Caliel666/game-integrations-nsfw/refs/heads/rewrite/games/eternum/slide1.png",
+                "https://raw.githubusercontent.com/Caliel666/game-integrations-nsfw/refs/heads/rewrite/games/eternum/slide2.png",
+                "https://raw.githubusercontent.com/Caliel666/game-integrations-nsfw/refs/heads/rewrite/games/eternum/slide3.png",
+                "https://raw.githubusercontent.com/Caliel666/game-integrations-nsfw/refs/heads/rewrite/games/eternum/slide4.png"
             ]
         }
     },
     "package": {
-        "url": "https://raw.githubusercontent.com/an-anime-team/game-integrations/refs/heads/rewrite/games/eternum/package.json",
+        "url": "https://raw.githubusercontent.com/Caliel666/game-integrations-nsfw/refs/heads/rewrite/games/eternum/package.json",
         "output": "integration",
         "runtime": {
             "platforms": [
