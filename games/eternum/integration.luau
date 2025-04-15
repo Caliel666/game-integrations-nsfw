@@ -172,7 +172,7 @@ return {
 
             local i18n = import("i18n").i18n
 
-            local archive_path = path.join(path.temp_dir(), `Eternum-{info.version}-pc.7z`)
+            local archive_path = path.join(path.temp_dir(), `Eternum-{info.version}-pc.zip`)
 
             return {
                 title = i18n("install_game"),
