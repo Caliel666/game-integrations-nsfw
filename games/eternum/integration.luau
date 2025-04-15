@@ -25,18 +25,18 @@ type Version = {
     url: string
 }
 
-local data_dir_path = path.persist_dir("voices_of_the_void")
+local data_dir_path = path.persist_dir("eternum")
 
 local settings_file_path = path.join(data_dir_path, "settings.json")
 
 local game_dir_path     = path.join(data_dir_path, "game")
 local game_version_path = path.join(game_dir_path, ".version")
-local game_binary_path  = path.join(game_dir_path, "VotV.exe")
+local game_binary_path  = path.join(game_dir_path, "Eternum.exe")
 
 ------------------------------------------------- Imports -------------------------------------------------
 
 local function import_components()
-    return import("components").components("voices_of_the_void")
+    return import("components").components("eternum")
 end
 
 ------------------------------------------------- Game versions -------------------------------------------------
@@ -44,10 +44,7 @@ end
 -- Direct download links are taken from here: https://archive.org/details/votv-archive
 local function list_game_versions()
     return {
-        { version = "pa0082_0012", title = "Pre-Alpha 0.8.2b", url = "https://archive.org/download/votv-archive/pa0082_0012.7z" },
-        { version = "pa0081_0008", title = "Pre-Alpha 0.8.1",  url = "https://archive.org/download/votv-archive/pa0081_0008.7z" },
-        { version = "pa08_0017",   title = "Pre-Alpha 0.8.0",  url = "https://archive.org/download/votv-archive/pa08_0017.7z" },
-        { version = "pa07_0011",   title = "Pre-Alpha 0.7.0",  url = "https://archive.org/download/votv-archive/pa07_0011.7z" }
+        { version = "0.8.6", title = "0.8.6", url = "https://download2331.mediafire.com/19fqz5mkkh4gtSBZhK9l28gnXX8EcYspiI1dQCopUpYoiy6K6u2DgU-lVi4JiIZ_J5Ri_H8LqtovF_eNEzu-_ffVziz0kDSzeKJFW1kkSPtmjEOWKX4Ori5Ndca9vW0ZoVPisqP5bM6s5j_89d9Dp0RE_Gfen0ABuOZw4hy0CZ91/svak5gazvltox1j/Eternum-0.8.6-pc.zip" }
     }
 end
 

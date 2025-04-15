@@ -1,0 +1,32 @@
+{
+    "standard": 1,
+    "game": {
+        "title": "Eternum",
+        "description": {
+            "en": "Sci-Fi erotic visual novel with a lot of choices",
+            "ru": "Научно-фантастический эротический визуальный роман с множеством выборов"
+        },
+        "developer": "Caribdis",
+        "publisher": "Caribdis",
+        "images": {
+            "icon": "https://raw.githubusercontent.com/an-anime-team/game-integrations/refs/heads/rewrite/games/eternum/icon.png",
+            "poster": "https://raw.githubusercontent.com/an-anime-team/game-integrations/refs/heads/rewrite/games/eternum/poster.jpg",
+            "background": "https://raw.githubusercontent.com/an-anime-team/game-integrations/refs/heads/rewrite/games/eternum/background.png",
+            "slides": [
+                "https://raw.githubusercontent.com/an-anime-team/game-integrations/refs/heads/rewrite/games/eternum/slide1.png",
+                "https://raw.githubusercontent.com/an-anime-team/game-integrations/refs/heads/rewrite/games/eternum/slide2.png",
+                "https://raw.githubusercontent.com/an-anime-team/game-integrations/refs/heads/rewrite/games/eternum/slide3.png",
+                "https://raw.githubusercontent.com/an-anime-team/game-integrations/refs/heads/rewrite/games/eternum/slide4.png"
+            ]
+        }
+    },
+    "package": {
+        "url": "https://raw.githubusercontent.com/an-anime-team/game-integrations/refs/heads/rewrite/games/eternum/package.json",
+        "output": "integration",
+        "runtime": {
+            "platforms": [
+                "x86_64-linux"
+            ]
+        }
+    }
+}
